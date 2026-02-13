@@ -23,30 +23,24 @@ L.marker([21.008, 105.864])
 
 
 
-//L.marker([21.008, 105.864]) // Hanoï
-//  .addTo(map)
-//  .bindPopup(
-//    "<strong>Hanoï</strong><br>"+
-//    "Hanoï" 
-//    "<a href="./galeries/galerie-Hanoi1.html">Voir la galerie de photos</a>"
- // );
 
-//var parcours = [
-//  [50.377, 2.705], // 
-//  [50.366, 2.742], //
-//  [50.401, 2.698]  // 
-//];
 
-//L.polyline(parcours, {
-//  color: "black",
-//  weight: 2,
-//  dashArray: "4,4"
-//}).addTo(map);
-//L.marker([50.366, 2.742])
-//  .addTo(map)
-//  .bindTooltip("Souchez (9–12 mai 1915)", { permanent: true })
-//  .bindPopup(
-//    "<strong>Combats de Souchez</strong><br>" +
-//    "Pertes importantes signalées au JMO.<br>" +
-//    "<em>Source : JMO du régiment</em>"
-//  );
+var parcours = [
+  [21.008, 105.864], // 
+  [22.008, 105.864], //
+  [23.008, 105.864]  // 
+];
+
+L.polyline(parcours, {
+  color: "black",
+  weight: 2,
+  dashArray: "4,4"
+  }).addTo(map);
+L.marker([21.008, 105.864])
+  .addTo(map)
+  .bindTooltip("Souchez (9–12 mai 1915)", { permanent: true })
+  .bindPopup(
+    "<strong>Combats de Souchez</strong><br>" +
+    "Pertes importantes signalées au JMO.<br>" +
+    "<em>Source : JMO du régiment</em>"
+  );
