@@ -28,7 +28,7 @@ L.marker([21.008, 105.864])
 //  .bindPopup(
 //    "<strong>Hanoï</strong><br>"+
 //    "Hanoï" 
-//    "<a href="galeries/galerie-Hanoi1.html">Voir la galerie de photos</a>"
+//    "<a href="./galeries/galerie-Hanoi1.html">Voir la galerie de photos</a>"
  // );
 
 //var parcours = [
