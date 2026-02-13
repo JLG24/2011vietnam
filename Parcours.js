@@ -29,7 +29,23 @@ L.marker([21.008, 105.864])
     </a><br>
   `);
 
-
+L.marker([22.335394, 103.839332])
+  .addTo(map)
+  .bindPopup(`
+    <strong>SAPA</strong><br>
+    <strong>19 avril</strong><br>
+    <a href="galeries/galerie-Hanoi1.html">
+      Voir la galerie
+    </a><br>
+     <strong>20 avril</strong><br>
+    <a href="galeries/galerie-Hanoi2.html">
+      Voir la galerie
+    </a><br>
+     <strong>21 avril</strong><br>
+    <a href="galeries/galerie-Hanoi3.html">
+      Voir la galerie
+    </a><br>
+  `);
 
 
 
