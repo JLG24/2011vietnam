@@ -16,7 +16,7 @@ L.marker([21.008, 105.864])
   .addTo(map)
   .bindPopup(`
     <strong>19 avril</strong><br>
-    <a href="../galeries/galerie-Hanoi1.html">
+    <a href="galeries/galerie-Hanoi1.html">
       Voir la galerie
     </a>
   `);
