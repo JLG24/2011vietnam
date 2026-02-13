@@ -18,7 +18,15 @@ L.marker([21.008, 105.864])
     <strong>19 avril</strong><br>
     <a href="galeries/galerie-Hanoi1.html">
       Voir la galerie
-    </a>
+    </a><br>
+     <strong>20 avril</strong><br>
+    <a href="galeries/galerie-Hanoi2.html">
+      Voir la galerie
+    </a><br>
+     <strong>21 avril</strong><br>
+    <a href="galeries/galerie-Hanoi3.html">
+      Voir la galerie
+    </a><br>
   `);
 
 
@@ -26,9 +34,9 @@ L.marker([21.008, 105.864])
 
 
 var parcours = [
-  [21.008, 105.864], // 
-  [22.008, 105.864], //
-  [23.008, 105.864]  // 
+  [21.008, 106.864], // 
+  [22.008, 109.864], //
+  [22.335394, 103.839332]  // Hotel Sapa
 ];
 
 L.polyline(parcours, {
@@ -36,7 +44,7 @@ L.polyline(parcours, {
   weight: 2,
   dashArray: "4,4"
   }).addTo(map);
-L.marker([21.008, 105.864])
+L.marker([21.008, 110.864])
   .addTo(map)
   .bindTooltip("Souchez (9–12 mai 1915)", { permanent: true })
   .bindPopup(
