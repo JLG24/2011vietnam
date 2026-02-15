@@ -12,7 +12,7 @@
 
 <body>
 
-<h1>Hanoï 1</h1>
+<h1>3ème jour à Hanoï (21 avril)</h1>
 
 <section class="gallery" id="gallery"></section>
 
@@ -31,13 +31,18 @@ for (let i = 124; i <= 123+totalPhotos; i++) {
   // 🎒 Définition du titre selon la séquence
   let titre;
 
-  if (i <= 2) {
-    titre = "";
-  } else if (i <= 8) {
-    titre = "";
-  } else if (i <= 16) {
-    titre = "";
-  } else {
+  if (i <= 124) {
+    titre = "Une nouvelle journée commence";
+  } else if (i <= 131) {
+    titre = "Livraison directe devant l'hôtel";
+  } else if (i <= 134) {
+    titre = "Prêts à se reconvertir";
+  }else if (i <= 218) {
+    titre = "Balade dans les rues de Hanoï";
+  }else if (i <= 154) {
+    titre = "Un marché aux poissons";
+  }
+     else {
     titre = "Moments à Hanoï";
   }
 
