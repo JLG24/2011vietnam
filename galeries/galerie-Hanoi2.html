@@ -12,7 +12,7 @@
 
 <body>
 
-<h1>Hanoï 20 avril 2011</h1>
+<h1>2<sup>ème</sup> jour à Hanoï (20 avril)</h1>
 
 <section class="gallery" id="gallery"></section>
 
@@ -37,14 +37,12 @@ for (let i = 58; i <= 57+totalPhotos; i++) {
   // 🎒 Définition du titre selon la séquence
   let titre;
 
-  if (i <= 2) {
-    titre = "";
-  } else if (i <= 8) {
-    titre = "";
-  } else if (i <= 16) {
-    titre = "";
+  if (i <= 69) {
+    titre = "Dans les rues de Hanoï";
+  } else if (i <= 116) {
+    titre = "Temple de la Littérature";
   } else {
-    titre = "";
+    titre = "Repas au restaurant";
   }
 
   const link = document.createElement("a");
