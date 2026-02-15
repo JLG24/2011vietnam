@@ -47,6 +47,24 @@ L.marker([22.335394, 103.839332])
     </a><br>
   `);
 
+ L.marker([22.5411, 104.2918])
+  .addTo(map)
+  .bindPopup(`
+    <strong>Sa Pa</strong><br>
+    <strong>22 avril</strong><br>
+    <a href="galeries/galerie-Sa Pa.html">
+      Voir la galerie
+    </a><br>
+     <strong>20 avril</strong><br>
+    <a href="galeries/galerie-Hanoi2.html">
+      Voir la galerie
+    </a><br>
+     <strong>21 avril</strong><br>
+    <a href="galeries/galerie-Hanoi3.html">
+      Voir la galerie
+    </a><br>
+  `);
+
 
 
 var parcours = [
