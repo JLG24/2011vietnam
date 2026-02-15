@@ -69,9 +69,8 @@ L.marker([22.335394, 103.839332])
 
 var parcours = [
   [21.008, 105.864], //  //
-  [22.335394, 103.839332]  // Hotel Sapa
-  
-  [  [22.5411, 104.2918]]// Marché de Bac HA 22 avril : randonnée à Ta Phin
+  [22.335394, 103.839332],  // Hotel Sapa
+  [22.5411, 104.2918]// Marché de Bac HA 22 avril : randonnée à Ta Phin
 ]
 ;
 
