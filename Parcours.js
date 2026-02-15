@@ -32,9 +32,9 @@ L.marker([21.008, 105.864])
 L.marker([22.335394, 103.839332])
   .addTo(map)
   .bindPopup(`
-    <strong>SAPA</strong><br>
-    <strong>19 avril</strong><br>
-    <a href="galeries/galerie-Hanoi1.html">
+    <strong>Sa Pa</strong><br>
+    <strong>22 avril</strong><br>
+    <a href="galeries/galerie-Sa Pa.html">
       Voir la galerie
     </a><br>
      <strong>20 avril</strong><br>
@@ -50,21 +50,23 @@ L.marker([22.335394, 103.839332])
 
 
 var parcours = [
-  [21.008, 106.864], // 
-  [22.008, 109.864], //
+  [21.008, 105.864], //  //
   [22.335394, 103.839332]  // Hotel Sapa
-];
+  
+  [  [22.5411, 104.2918]]// Marché de Bac HA 22 avril : randonnée à Ta Phin
+]
+;
 
 L.polyline(parcours, {
   color: "black",
   weight: 2,
   dashArray: "4,4"
   }).addTo(map);
-L.marker([21.008, 110.864])
-  .addTo(map)
-  .bindTooltip("Souchez (9–12 mai 1915)", { permanent: true })
-  .bindPopup(
-    "<strong>Combats de Souchez</strong><br>" +
-    "Pertes importantes signalées au JMO.<br>" +
-    "<em>Source : JMO du régiment</em>"
-  );
+//L.marker([21.008, 110.864])
+//  .addTo(map)
+//  .bindTooltip("Souchez (9–12 mai 1915)", { permanent: true })
+//  .bindPopup(
+//    "<strong>Combats de Souchez</strong><br>" +
+//    "Pertes importantes signalées au JMO.<br>" +
+//    "<em>Source : JMO du régiment</em>"
+//  );
